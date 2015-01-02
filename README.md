@@ -17,26 +17,32 @@
 
 ## 项目经历
 
-### 2015 - now 云 OS 4.0 @阿里云 #前端
-类似 WebOS 的手机系统，应用开发语言为基于 node 的 javascript。
-主要负责用于提供给外部开发者开发 APP 的框架设计。
+### 2014 - 2015 [WolfeCareer](http://wolfecareer.com/) #web 开发
+一个工作外参与的创业项目，主要负责部分技术选型和前后端开发任务。
+该项目后端主要基于 Pyramid（Python），前端则是 Angular（从此 Angular 一身黑……）和 Grunt，
+另外还使用了 Docker 进行开发环境部署，可见[sample-pyramid-app-with-docker-and-fig](https://github.com/rhyzx/sample-pyramid-app-with-docker-and-fig)。
 
 
-### 2015 - 2015 [酷盘](https://kanbox.com/) @阿里云 #web开发
-基于 Rails 开发，负责前端开发和部分后端工作（主要是 VC 层）。前端基于 backbone 架构，
-负责实现文件秒杀等功能。
-顺便扯下这组的 leader 是 [@李化顺](https://ruby-china.org/huacnlee)。
+### 2015 - 2015 云 OS 4.0 @阿里云 #前端
+一个类似 WebOS 的手机系统，应用开发语言为基于 node 的 javascript。
+主要负责 SDK 的部分 API 设计工作。
 
 
-### 2014 - 2014 [uDATA](http://udata.taobao.net/) @淘宝UED #web开发
-基于 chrome 的一个数据可视化插件，中途加入参与部分新特性的开发。
-之后负责新版重构，使用 node 搭建后端服务，使之脱离原先的由另一 java 团队开发的接口。
+### 2014 - 2015 [酷盘](https://kanbox.com/) @阿里云 #web 开发
+类 Dropbox，基于 Rails 开发，负责前端开发和部分后端工作（主要是 VC 层）。
+前端技术上主要继承了 Rails 默认的体系，如 Coffee、Sass、jQuery + UJS、Turbolinks、Sprockets（前端工具链），
+另外主要还使用了 Backbone 和 Bootstrap，并使用 Rails-assets 进行 Bower 的组件管理。
 
 
-### 2013 - 2014 [ATA](http://atatech.org/) @淘宝UED #web开发
-公司的一个内部技术社区。参与1.0版的维护工作，
-之后负责2.0版的前端架构设计搭建，
-使用了 coffee、less、brunch、bootstrap、bower、sundown 等大量开源项目。
+### 2014 - 2014 [uDATA](http://udata.taobao.net/) @淘宝UED #web 开发
+基于 chrome 的一个数据可视化插件（基于 D3），中途加入参与部分新特性的开发。
+之后负责新版重构，使用 node 搭建后端服务，使之脱离原先的由另一 java 团队开发的接口，直连淘宝的数据服务。
+技术上主要基于淘宝的 midway（express 封装），model 层使用了 bookshelf。
+
+
+### 2013 - 2014 [ATA](http://atatech.org/) @淘宝UED #web 开发
+公司的一个内部技术社区，基于 PHP 开发。参与老版的维护工作，之后负责新版的前端架构搭建和部分后端技术选型，
+使用了 coffee、less、brunch、bootstrap、bower、sundown、twig 等大量开源项目。
 另外负责大部分前端页面开发与后端 VC 层的开发任务。
 
 
