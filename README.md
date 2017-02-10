@@ -2,7 +2,10 @@
 
 90年，男。
 主修前端，辅修 web 开发相关的各种技能，认同 RoR 的开发理念。
-热爱开源，为多个开源项目提过 PR，如 [jQuery](https://github.com/jquery/jquery/pull/1888)、[async](https://github.com/caolan/async/pull/216)。
+热爱开源，为多个开源项目提过 PR，如
+[Vue](https://github.com/vuejs/vue/pulls?q=is%3Apr+author%3Arhyzx+is%3Aclosed)、
+[jQuery](https://github.com/jquery/jquery/pull/1888)、
+[async](https://github.com/caolan/async/pull/216)。
 喜欢钻技术，略有强迫症。
 
 - Email: rhyzix@gmail.com
@@ -17,9 +20,31 @@
 
 ## 项目经历
 
-### 2014 - 2015 [WolfeCareer](http://wolfecareer.com/) #web 开发
+### 2016 - 2017 [Treation](https://treation.com)(远程工作) #开发
+主导该项目的前端工作，基于 vue、bs4、actioncable，主要精力花在表格的编辑功能开发与性能优化上。
+也参与部分后端任务，基于 rails。
+<!--
+- 表格性能
+  - 局部渲染（non-fixed size items）
+  - 组件复用 cache-for
+  - lazy-reativity
+- 单例编辑器
+- 滚动组件
+- 弹出组件套
+- Store 设计迭代（类 vuex？`observableComputed`）
+-->
+
+
+### 2015 - 2016 [有道云笔记](https://note.youdao.com/) @网易 #开发
+参与云笔记 2.0 改版任务，推进部分技术迭代 (比如 svg icons、组件化等 [see](https://speakerdeck.com/rhyzx/xie-angular-de-zui-jia-shi-jian))，
+独立负责部分功能 (比如 pdf 预览、任务管理、日历等)，并使用 node 完成其中一些功能的接口。
+另外负责一些效率工具的开发 (比如基于 [mincer](https://github.com/nodeca/mincer) 的一个静态资源构建系统，
+用于快速开发静态网页)。
+
+
+### 2014 - 2015 [WolfeCareer](http://wolfecareer.com/)(业余项目) #web 开发
 一个工作外参与的创业项目，主要负责部分技术选型和前后端开发任务。
-该项目后端主要基于 Pyramid (Python)，前端则是 Angular (从此 Angular 一身黑……) 和 Grunt，
+该项目后端主要基于 Pyramid (Python)，前端则是 Angular 和 Grunt，
 另外还使用了 Docker 进行开发环境部署，可见[sample-pyramid-app-with-docker-and-fig](https://github.com/rhyzx/sample-pyramid-app-with-docker-and-fig)。
 
 
