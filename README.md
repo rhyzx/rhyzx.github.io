@@ -1,4 +1,4 @@
-# 忻斌
+# 忻斌 [![GitHub tag](https://img.shields.io/github/tag/rhyzx/rhyzx.github.io.svg)](https://github.com/rhyzx/rhyzx.github.io/tree/resume)
 
 90 年，男；
 主修前端，辅修 web 开发相关的各种技能，认同 RoR 的开发理念；
