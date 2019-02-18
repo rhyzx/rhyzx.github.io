@@ -9,7 +9,7 @@
 喜欢钻技术，略有强迫症。
 
 - 邮件：rhyzix@gmail.com
-- 电话：15158102797
+- 电话：17326069639
 - GitHub：https://github.com/rhyzx
 
 
@@ -19,6 +19,18 @@
 
 
 ## 项目经历
+
+### 2017–2018 @YIZ #开发
+参与各类营销类 H5 页面、HTML5 游戏、小程序、小游戏的开发（包括后端），主要基于 Pixi.js、Three.js、Nodejs 和 Rails，如：
+- [冒险岛扭蛋机 H5](http://mxd2.qq.com/cp/a20170825ndj/index.htm)
+- [王者电台 H5](https://gzhcos.qq.com/h5act/wzry/index.html)
+- [虚幻争霸 H5](http://ep.qq.com/cp/a20171103reservation/index.html)
+- [王者音乐测试 H5](https://pvp.qq.com/cp/a20181026hearing/index.html)
+- [诗云](https://image.zysy.qq.com/index.html)
+- 红警小游戏
+- 鹅厂20周年记忆挑战小游戏
+- tx数字文博助手小程序
+
 
 ### 2016–2017 *[Treation](https://treation.com)* (远程工作) #开发
 主导该项目的前端工作，基于 Vue、BS4、Actioncable，主要精力花在表格的编辑功能开发与性能优化上；
