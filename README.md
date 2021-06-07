@@ -1,11 +1,7 @@
-# 忻斌 [![GitHub tag](https://img.shields.io/github/tag/rhyzx/rhyzx.github.io.svg)](https://github.com/rhyzx/rhyzx.github.io/tree/resume)
-
+# 忻斌
 90 年，男；
 主修前端，辅修 web 开发相关的各种技能，认同 RoR 的开发理念；
-热爱开源，为多个开源项目提过 PR，如
-[Vue](https://github.com/vuejs/vue/pulls?q=is%3Apr+author%3Arhyzx+is%3Aclosed)、
-[jQuery](https://github.com/jquery/jquery/pull/1888)、
-[Async](https://github.com/caolan/async/pull/216)；
+热爱开源，为多个开源项目提过 PR，如 [Vue](https://github.com/vuejs/vue/pulls?q=is%3Apr+author%3Arhyzx+is%3Aclosed)、[jQuery](https://github.com/jquery/jquery/pull/1888)、[Async](https://github.com/caolan/async/pull/216)；
 喜欢钻技术，略有强迫症。
 
 - 邮件：rhyzix@gmail.com
@@ -14,13 +10,21 @@
 
 
 ## 教育背景
-
 - 2008–2011 浙江金融职业学院 国际金融
+
+
+## 专业技能
+- 精通 Javascript，熟练使用常见的前端 MV* 框架（Vue、React、Svelte）与动画图形库（Pixi、Threejs）
+- 了解 HTTP 协议，熟练使用 Nodejs、RoR、PHP、Go 等平台或语言进行后端开发
+- 熟悉 MySQL、PostgreSQL 与基本的 SQL 性能优化
+- 熟悉 Linux 环境与 Git 版本管理
+- 了解 Docker 并熟练使用 K8S 进行产品部署
+- 了解微信小程序与小游戏开发
 
 
 ## 项目经历
 
-### 2017–2018 @YIZ #开发
+### 2017–2019 @YIZ #开发
 参与各类营销类 H5 页面、HTML5 游戏、小程序、小游戏的开发（包括后端），主要基于 Pixi.js、Three.js、Nodejs 和 Rails，如：
 - [冒险岛扭蛋机 H5](http://mxd2.qq.com/cp/a20170825ndj/index.htm)
 - [王者电台 H5](https://gzhcos.qq.com/h5act/wzry/index.html)
@@ -35,16 +39,6 @@
 ### 2016–2017 *[Treation](https://treation.com)* (远程工作) #开发
 主导该项目的前端工作，基于 Vue、BS4、Actioncable，主要精力花在表格的编辑功能开发与性能优化上；
 参与部分后端任务，基于 Rails。
-<!--
-- 表格性能
-  - 局部渲染 (non-fixed size items)
-  - 组件复用 cache-for
-  - lazy-reativity
-- 单例编辑器
-- 滚动组件
-- 弹出组件套
-- Store 设计迭代 (类 vuex？`observableComputed`)
--->
 
 
 ### 2015–2016 *[有道云笔记](https://note.youdao.com/)* @网易 #开发
@@ -100,8 +94,11 @@
 这段时间主要参与了多个证券系统的前端开发，独立完成各种前端任务，
 解决浏览器兼容性问题并优化页面，另有少部分参与后端的开发。
 
-
 ## 个人项目
+
+### [activestorage-tencent_cos](https://github.com/YIIZ/activestorage-tencent_cos) 2018
+
+腾讯云 COS 的 Rails ActiveStorage 实现
 
 ### [lt](https://github.com/rhyzx/lt) 2013
 一个极简的**试验型** JS 模板引擎，性能非常优异。
