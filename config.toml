@@ -1,0 +1,9 @@
+title = "LESSISMORE"
+baseURL = "https://rhyzx.github.io/"
+languageCode = "zh-cn"
+theme = "pickles"
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags"
+  weight = 4

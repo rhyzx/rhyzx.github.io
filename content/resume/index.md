@@ -1,3 +1,7 @@
+---
+date: 2021-09-17
+---
+
 # 忻斌
 90 年，男；
 主修前端，辅修 web 开发相关的各种技能，认同 RoR 的开发理念；
@@ -34,7 +38,8 @@
 
 
 ### 2016–2017 *[Treation](https://web.archive.org/web/20210118154809/https://treation.com/)* #远程工作 #开发
-[![treation](https://user-images.githubusercontent.com/1676871/133558135-6a209858-45d0-4023-a198-0f5dbb29d3f6.jpeg)](https://user-images.githubusercontent.com/1676871/133551008-49793cf3-70cf-43e8-808b-ff2c630271ec.mp4)
+[![treation](./treation_demo-00.00.00.000.jpeg)](./treation_demo.mp4)
+<!-- [![treation](https://user-images.githubusercontent.com/1676871/133558135-6a209858-45d0-4023-a198-0f5dbb29d3f6.jpeg)](https://user-images.githubusercontent.com/1676871/133551008-49793cf3-70cf-43e8-808b-ff2c630271ec.mp4) -->
 
 一个类 [Airtable](https://airtable.com/)、[Notion](https://www.notion.so/) 的表格数据管理工具。
 
