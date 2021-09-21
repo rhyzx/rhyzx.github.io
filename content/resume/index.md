@@ -103,7 +103,7 @@ date: 2021-09-17
 
 ### [RUI](https://github.com/YIIZ/rui) 2019
 
-基于 Reactive 实现的UI数据绑定系统，主要诉求是轻量、低理解成本、跨UI（[HTML](https://github.com/YIIZ/rui/blob/master/src/html.js)、[PIXI](https://github.com/YIIZ/lib/blob/master/rui/pixi/nodes.js)）以应对H5这种混合HTML和Canvas的环境。
+基于 Reactive 实现的 UI 数据绑定系统，主要诉求是轻量、低理解成本、跨 UI（[HTML](https://github.com/YIIZ/rui/blob/master/src/html.js)、[PIXI](https://github.com/YIIZ/lib/blob/master/rui/pixi/nodes.js)）以应对 H5 这种混合 HTML 和 Canvas 的环境。
 
 ### [activestorage-tencent_cos](https://github.com/YIIZ/activestorage-tencent_cos) 2018
 
