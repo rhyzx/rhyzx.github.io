@@ -103,11 +103,13 @@ date: 2021-09-17
 
 ### [RUI](https://github.com/YIIZ/rui) 2019
 
-基于 Reactive 实现的 UI 数据绑定系统，主要诉求是轻量、低理解成本、跨 UI（[HTML](https://github.com/YIIZ/rui/blob/master/src/html.js)、[PIXI](https://github.com/YIIZ/lib/blob/master/rui/pixi/nodes.js)）以应对 H5 这种混合 HTML 和 Canvas 的环境。
+基于 Reactive 实现的 UI 数据绑定系统，主要诉求是轻量（8k左右实现[TodoMVC](https://yiiz.github.io/rui/todomvc/)）、低理解成本、兼容 JSX、跨 UI（[HTML](https://github.com/YIIZ/rui/blob/master/src/html.js)、[PIXI](https://github.com/YIIZ/lib/blob/master/rui/pixi/nodes.js)）以应对 H5 这种混合 HTML 和 Canvas 的环境。
+并基于该系统实现了许多常用组件，如[路由](https://github.com/YIIZ/lib/blob/master/rui/router.js)、[Spring 动画](https://github.com/YIIZ/lib/blob/master/rui/motion.js)。
 
 ### [activestorage-tencent_cos](https://github.com/YIIZ/activestorage-tencent_cos) 2018
 
 腾讯云 COS 的 Rails ActiveStorage 实现
+
 
 ### [lt](https://github.com/rhyzx/lt) 2013
 一个极简的**试验型** JS 模板引擎。
