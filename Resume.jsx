@@ -1,0 +1,144 @@
+import {
+  Circle,
+  Document,
+  Image,
+  Link,
+  Page,
+  Svg,
+  Text,
+  View,
+} from "@react-pdf/primitives"
+
+import { fromMarkdown } from "mdast-util-from-markdown"
+import { directive } from "micromark-extension-directive"
+import { directiveFromMarkdown } from "mdast-util-directive"
+import source from "./README.md" with { type: "text" }
+
+const ast = fromMarkdown(source, {
+  extensions: [directive()],
+  mdastExtensions: [directiveFromMarkdown()],
+})
+
+export default function () {
+  /** @param {import("mdast").RootContent} node */
+  function Node(node) {
+    if (node.type === "heading") {
+      const style =
+        node.depth === 1 ?
+          {
+            marginTop: "60px",
+            fontSize: "30px",
+            fontWeight: 600,
+            lineHeight: 1.6,
+          }
+        : node.depth === 2 || node.depth === 3 ?
+          {
+            marginTop: "24px",
+            fontSize: "21px",
+            fontWeight: 600,
+            lineHeight: 1.15,
+          }
+        : {
+            fontWeight: 600,
+          }
+      return (
+        <Text style={style}>
+          {node.children.map((node) => (
+            <Node {...node} />
+          ))}
+        </Text>
+      )
+    }
+    if (node.type === "paragraph") {
+      return (
+        <Text>
+          {node.children.map((node) => (
+            <Node {...node} />
+          ))}
+        </Text>
+      )
+    }
+    if (node.type === "list") {
+      return (
+        <View style={{ marginLeft: "32px" }}>
+          {node.children.map(({ children }) => (
+            <View
+              style={{ flexDirection: "row", alignItems: "center", gap: "8px" }}
+            >
+              <Svg width={4} height={4} viewBox="0 0 2 2">
+                <Circle cx={1} cy={1} r={1} fill="currentColor" />
+              </Svg>
+              <View>
+                {children.map((node) => (
+                  <Node {...node} />
+                ))}
+              </View>
+            </View>
+          ))}
+        </View>
+      )
+    }
+
+    // if (node.type === "image") {
+    //   return <Image src={node.url} width={node.width} height={node.height} />
+    // }
+
+    if (node.type === "text") {
+      return node.value
+    }
+    if (node.type === "link") {
+      return (
+        <Link
+          href={node.url}
+          style={{ color: "#065588", textDecoration: "none" }}
+        >
+          {node.children.map((node) => (
+            <Node {...node} />
+          ))}
+        </Link>
+      )
+    }
+    // null not allowed
+    return <View />
+  }
+
+  return (
+    <Document>
+      <Page
+        size="A4"
+        dpi={96}
+        // 794x1123px
+        style={{
+          fontSize: "16px",
+          fontFamily: "default",
+          fontWeight: 300,
+          lineHeight: "24px",
+          gap: "24px",
+          color: "#1f0909",
+          backgroundColor: "#f3f2ee",
+          padding: "60px",
+        }}
+      >
+        {ast.children.map((node) => (
+          <Node {...node} />
+        ))}
+
+        <Link
+          href="https://github.com/rhyzx/rhyzx.github.io/tree/resume"
+          style={{
+            position: "absolute",
+            fontSize: "10px",
+            bottom: "20px",
+            left: 0,
+            right: 0,
+            textAlign: "center",
+            color: "grey",
+            textDecoration: "none",
+          }}
+        >
+          Crafted with React-pdf & mdast
+        </Link>
+      </Page>
+    </Document>
+  )
+}

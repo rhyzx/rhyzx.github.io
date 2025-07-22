@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "Preserve",
+    "skipLibCheck": true,
+    "strict": true,
+    "jsx": "react-jsxdev",
+    "jsxImportSource": "@",
+    "checkJs": true,
+    "maxNodeModuleJsDepth": 1,
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}
