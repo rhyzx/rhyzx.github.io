@@ -58,29 +58,29 @@
 主导该项目的前端工作，基于 Vue、Bootstrap4、Actioncable，主要负责表格的编辑功能与性能优化；
 参与部分后端任务，基于 Ruby on Rails。
 
-### 2015–2016 [有道云笔记](https://note.youdao.com/) 网易
+### 2015–2016 [有道云笔记](https://note.youdao.com/)·网易
 
 参与云笔记 2.0 改版任务，推进部分技术迭代 (比如 SVG icons、[Angular 组件化](https://www.dropbox.com/s/0y3jsd3qmjw6pje/some-angular-best-practices.pdf?dl=0))，
 独立负责部分功能 (比如 PDF 预览、任务管理、日历等)，并使用 Node.js 完成其中一些功能的接口；
 负责一些效率工具的开发 (比如基于 [mincer](https://github.com/nodeca/mincer) 的一个静态资源构建系统，用于快速开发静态网页)。
 
-### 2015–2015 云 OS；阿里云
+### 2015–2015 云 OS·阿里云
 
 基于 JavaScript 的手机系统，负责部分 SDK API 设计工作。
 
-### 2014–2015 [酷盘](https://web.archive.org/web/20150315002405/https://kanbox.com/)；阿里云
+### 2014–2015 [酷盘](https://web.archive.org/web/20150315002405/https://kanbox.com/)·阿里云
 
 基于 Ruby on Rails 开发的网盘，负责前端开发和部分后端工作 (主要是 VC 层) 。
 前端技术上主要继承了 Ruby on Rails 默认的体系，如 CoffeeScript、Sass、jQuery + UJS、Turbolinks、Sprockets (前端工具链)，
 还使用了 Backbone 和 Bootstrap，并使用 rails-assets 进行 Bower 的组件管理。
 
-### 2014–2014 uDATA；淘宝 UED
+### 2014–2014 uDATA·淘宝 UED
 
 基于 Chrome 的一个数据可视化插件 (基于 D3)，中途加入参与部分新特性的开发。
 之后负责新版重构，使用 Node.js 搭建后端服务，使之脱离原先的由另一 Java 团队开发的接口，直连淘宝的数据服务。
 技术上主要基于淘宝的 Midway，model 层使用了 Bookshelf。
 
-### 2013–2014 ATA 社区；淘宝 UED
+### 2013–2014 ATA 社区·淘宝 UED
 
 阿里内部技术社区，基于 PHP 开发。参与老版的维护工作，之后负责新版的前端架构搭建和部分后端技术选型，
 使用了 CoffeeScript、Less、Brunch、Bootstrap、Bower、Sundown、Twig 等大量开源项目。
