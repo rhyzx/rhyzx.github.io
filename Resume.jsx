@@ -133,16 +133,15 @@ export default function () {
           <Node {...node} />
         ))}
 
+        {/* page wrap bug on bottom absolute https://github.com/diegomura/react-pdf/issues/733 */}
         <Link
           href="https://github.com/rhyzx/rhyzx.github.io/tree/resume"
           style={{
             position: "absolute",
-            fontSize: "10px",
-            bottom: "20px",
-            left: 0,
-            right: 0,
-            textAlign: "center",
-            color: "grey",
+            fontSize: "8px",
+            top: "8px",
+            right: "8px",
+            color: "#ccc",
             textDecoration: "none",
           }}
         >
