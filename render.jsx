@@ -6,6 +6,9 @@ import { Readable, Writable } from "node:stream"
 import * as fs from "node:fs"
 
 const fontStore = new FontStore()
+// https://github.com/diegomura/react-pdf/issues/1662
+// work-break: break-all
+fontStore.registerHyphenationCallback((word) => word.split(""))
 fontStore.register({
   family: "default",
   fonts: [

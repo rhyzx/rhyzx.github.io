@@ -27,18 +27,29 @@ export default function () {
         node.depth === 1 ?
           {
             marginTop: "60px",
+            // marginBottom: "24px",
             fontSize: "30px",
             fontWeight: 600,
             lineHeight: 1.6,
           }
-        : node.depth === 2 || node.depth === 3 ?
+        : node.depth === 2 ?
           {
-            marginTop: "24px",
-            fontSize: "21px",
+            marginTop: "48px",
+            // marginBottom: "24px",
+            fontSize: "22px",
+            fontWeight: 600,
+            lineHeight: 1.15,
+          }
+        : node.depth === 3 ?
+          {
+            marginTop: "32px",
+            // marginBottom: "16px",
+            fontSize: "20px",
             fontWeight: 600,
             lineHeight: 1.15,
           }
         : {
+            // marginTop: "30px",
             fontWeight: 600,
           }
       return (
@@ -62,10 +73,8 @@ export default function () {
       return (
         <View style={{ marginLeft: "32px" }}>
           {node.children.map(({ children }) => (
-            <View
-              style={{ flexDirection: "row", alignItems: "center", gap: "8px" }}
-            >
-              <Svg width={4} height={4} viewBox="0 0 2 2">
+            <View style={{ flexDirection: "row", gap: "8px" }}>
+              <Svg width="4px" height="24px" viewBox="0 0 2 2">
                 <Circle cx={1} cy={1} r={1} fill="currentColor" />
               </Svg>
               <View>
@@ -99,7 +108,7 @@ export default function () {
       )
     }
     // null not allowed
-    return <View />
+    return []
   }
 
   return (
@@ -109,11 +118,12 @@ export default function () {
         dpi={96}
         // 794x1123px
         style={{
-          fontSize: "16px",
+          // TODO multi fonts(en)
           fontFamily: "default",
-          fontWeight: 300,
+          fontSize: "16px",
           lineHeight: "24px",
-          gap: "24px",
+          fontWeight: 300,
+          gap: "18px",
           color: "#1f0909",
           backgroundColor: "#f3f2ee",
           padding: "60px",
