@@ -30,6 +30,7 @@
 
 - 将服务从 AWS 新加坡集群切换到 AWS Fargate（巴西与新加坡），后又切换到 Google Cloud Run（11 个地区）
 - 借鉴 [Phoenix LiveView](https://github.com/phoenixframework/phoenix_live_view) 思想在 Node.js 上实现基于 WebSocket 的动态页面 SSR，将 95% 的业务代码迁移到 Node.js 端，页面主脚本从 1MB 减少到 20KB
+- 基于 esbuild 搭建全栈构建流程，包括前端脚本打包（ES2015）、后端脚本打包（ES Next）、Tailwind CSS、图片优化、SVG 转 JSX、构建时代码生成、Worker 脚本分离；可在 3 秒内构建所有资源
 - 基于 HTTP2 长链接与后端通信，减少接口调用 RTT；使用 Valibot 验证接口数据，并在开发环境预警异常数据
 - 基于 MessageFormat 2.0 进行国际化，并开发相关工具用于 ID 生成与文案提取
 - 基于 Pulumi 对 GCP 设施代码化管理
@@ -63,10 +64,6 @@
 参与云笔记 2.0 改版任务，推进部分技术迭代 (比如 SVG icons、[Angular 组件化](https://www.dropbox.com/s/0y3jsd3qmjw6pje/some-angular-best-practices.pdf?dl=0))，
 独立负责部分功能 (比如 PDF 预览、任务管理、日历等)，并使用 Node.js 完成其中一些功能的接口；
 负责一些效率工具的开发 (比如基于 [mincer](https://github.com/nodeca/mincer) 的一个静态资源构建系统，用于快速开发静态网页)。
-
-### 2015–2015 云 OS·阿里云
-
-基于 JavaScript 的手机系统，负责部分 SDK API 设计工作。
 
 ### 2014–2015 [酷盘](https://web.archive.org/web/20150315002405/https://kanbox.com/)·阿里云
 

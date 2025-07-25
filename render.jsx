@@ -83,6 +83,6 @@ export async function render(doc) {
 if (import.meta.main) {
   const { default: Resume } = await import("./Resume.jsx")
   const stream = await render(<Resume />)
-  await stream.pipeTo(Writable.toWeb(fs.createWriteStream("./out.pdf")))
-  console.log("saved to out.pdf")
+  await stream.pipeTo(Writable.toWeb(fs.createWriteStream("./BINXIN.pdf")))
+  console.log("done")
 }
