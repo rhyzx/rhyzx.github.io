@@ -118,8 +118,7 @@ export default function () {
         dpi={96}
         // 794x1123px
         style={{
-          // TODO multi fonts(en)
-          fontFamily: "default",
+          fontFamily: ["latin", "default"],
           fontSize: "16px",
           lineHeight: "24px",
           fontWeight: 300,

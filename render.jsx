@@ -10,6 +10,19 @@ const fontStore = new FontStore()
 // work-break: break-all
 fontStore.registerHyphenationCallback((word) => word.split(""))
 fontStore.register({
+  family: "latin",
+  fonts: [
+    {
+      src: "/System/Library/Fonts/Supplemental/Times New Roman.ttf",
+      fontWeight: 400,
+    },
+    {
+      src: "/System/Library/Fonts/Supplemental/Times New Roman Bold.ttf",
+      fontWeight: 700,
+    },
+  ],
+})
+fontStore.register({
   family: "default",
   fonts: [
     // TODO bug?
@@ -26,12 +39,12 @@ fontStore.register({
     {
       src: "/System/Library/Fonts/Supplemental/Songti.ttc",
       postscriptName: "STSongti-SC-Bold",
-      fontWeight: 600,
+      fontWeight: 700,
     },
     {
       src: "/System/Library/Fonts/Supplemental/Songti.ttc",
       postscriptName: "STSongti-SC-Black",
-      fontWeight: 800,
+      fontWeight: 900,
     },
   ],
 })
